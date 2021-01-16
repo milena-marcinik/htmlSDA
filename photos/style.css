@@ -1,0 +1,25 @@
+.container{
+    margin: auto;
+    width: 700px;
+}
+
+.item{
+    text-align: center;
+}
+
+.header{
+    font-size: 28px;
+    color: mediumvioletred;
+}
+
+.image{
+    padding: 0 10px;
+}
+
+#special-div{
+    text-align: right;
+}
+
+.container, .item, .header, img {
+    background-color:lightcyan;
+}
