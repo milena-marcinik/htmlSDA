@@ -36,7 +36,34 @@
         </nav>
     </header>
     <main>
-        Kontakt
+        <h2>Formularz kontaktowy</h2>
+        <form action="index.html" method="GET">
+            <div>
+                <label for="firstName">Imie: </label>
+                <input id="firstName" name="firstName" type="text">
+            </div>
+            
+            <div>
+                <label for="lastName">Nazwisko: </label>
+                <input id="lastName" name="lastName" type="text">
+            </div>
+            
+            <div>
+                <label for="female">Kobieta</label>
+                <input type="radio" id="female" name="gender">
+                <label for="male">Mezczyzna</label>
+                <input type="radio" id="male" name="gender">
+                <label for="other">Inna</label>
+                <input type="radio" id="other" name="gender">
+            </div>
+            <div>
+                <label for="questionType">Rodzaj zapytania</label>
+                <select name="questionType" id="questionType">
+                    <option value="opinion">Opinia</option>
+                    <option value="advice">Rada</option>
+                </select>
+            </div>
+        </form>
     </main>
     <footer>
         <h3>O Autorze</h3>
