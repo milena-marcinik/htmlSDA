@@ -4,7 +4,7 @@
 }
 
 .item{
-    text-align: center;
+    border: 1px solid black;
 }
 
 .header{
@@ -12,14 +12,27 @@
     color: mediumvioletred;
 }
 
-.image{
-    padding: 0 10px;
-}
-
-#special-div{
+.header-right{
     text-align: right;
 }
 
-.container, .item, .header, img {
-    background-color:lightcyan;
+.image{
+    padding: 0 10px;
+    float: left;
 }
+
+/* #special-div{
+    text-align: right;
+}
+ */
+
+ .image-float-right{
+     float: right;
+ }
+
+ .description{
+    font-size: 18px;
+    text-align: justify;
+
+ }
+
