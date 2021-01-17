@@ -1,8 +1,16 @@
+.main-container{
+    margin: auto;
+    width: 50vw;
+    font-size: 18px;
+}
+
 .main-content{
     background-image: url('./img/background.jpg');
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 30vh;
+    /* width: 110%; */
 }
 
 .main-header{
@@ -10,12 +18,14 @@
     color: #ffffff;
     text-align: center;
     font-style: italic;
+    font-size: 2.4em;
 }
 
 .main-description{
     color: #e4e4e4;
     font-size: 20px;
     font-weight: 500;
+    text-align: justify;
 }
 
 .post{
@@ -26,6 +36,7 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     color: #3d3d3d;
+    font-size: 2em;
 }
 
 .post-content{
