@@ -9,7 +9,10 @@
     background-position: cover;
     background-repeat: no-repeat;
     background-size: cover;
+    box-sizing: border-box;
     height: 30vh;
+    margin-bottom: 0.5em;
+    padding: 1em;
     /* width: 110%; */
 }
 
@@ -30,6 +33,8 @@
 
 .post{
     border: 1px solid rgb(23, 10, 10);
+    margin: 0.5em 0 0.5em 0;
+    padding: 0 1em 0 1em;
 }
 
 .post-header{
